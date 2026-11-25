@@ -6,7 +6,7 @@ Ryan Walsh
 FitTogether
 https://supreme-orbit-p79xx9467wwqf76g6-4173.app.github.dev/#home  
 
-Session — November 23, 2026 —
+Session 1 — November 23, 2026 —
 
 Goal for this session: Build the foundation of the FitTogether website, including the home page, navigation bar, colours, and overall branding.
 Key prompts we gave Copilot:
@@ -17,7 +17,7 @@ What broke, and how we fixed it: [Describe any actual problems encountered while
 Committed? [Yes / No] — Commit message: "Created FitTogether home page and website navigation."
 
 
-Session — November 24, 2026 
+Session 2 — November 24, 2026 
 
 Goal for this session: Build the community features of FitTogether, including the Find Workout Partners page and Fitness Communities page. Make the buttons and matching features interactive.
 Key prompts we gave Copilot:
@@ -27,7 +27,7 @@ What worked: The two community-focused pages were developed to allow users to di
 What broke, and how we fixed it: [Record any problems with profile cards, search filters, connection buttons, or community membership counts.]
 Committed? [Yes / No] — Commit message: "Added workout partners and fitness communities." 
 
-Session — November 25, 2026 
+Session 3 — November 25, 2026 
 
 Goal for this session: Develop the engagement features of FitTogether, including Fitness Challenges, My Progress, and Network Effects.
 Key prompts we gave Copilot:
@@ -38,7 +38,7 @@ What worked: The engagement features were designed to encourage users to partici
 What broke, and how we fixed it: [Record any actual problems with charts, progress controls, challenge buttons, or the network effects slider.]
 Committed? [Yes / No] — Commit message: "Added challenges, progress dashboard and network effects page."
 
-Session — November 26, 2026 
+Session 4 — November 26, 2026 
 
 Goal for this session: Test the entire FitTogether website, fix bugs, check mobile compatibility, publish the website, and prepare it for submission.
 Key prompts we gave Copilot:
