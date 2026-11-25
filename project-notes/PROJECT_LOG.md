@@ -3,7 +3,9 @@ FitTogether Project log
 
 
 Ryan Walsh
+
 FitTogether
+
 https://supreme-orbit-p79xx9467wwqf76g6-4173.app.github.dev/#home  
 
 Session 1 — November 23, 2026 —
