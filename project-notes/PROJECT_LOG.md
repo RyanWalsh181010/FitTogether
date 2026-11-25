@@ -8,6 +8,8 @@ FitTogether
 
 https://ryanwalsh181010.github.io/FitTogether/ 
 
+https://ryanwalsh181010.github.io/FitTogether/
+
 Session 1 — November 23, 2026 —
 
 Goal for this session: Build the foundation of the FitTogether website, including the home page, navigation bar, colours, and overall branding.
