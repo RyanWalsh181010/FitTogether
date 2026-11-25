@@ -6,8 +6,6 @@ Ryan Walsh
 
 FitTogether
 
-https://ryanwalsh181010.github.io/FitTogether/ 
-
 https://ryanwalsh181010.github.io/FitTogether/
 
 Session 1 — November 23, 2026 —
