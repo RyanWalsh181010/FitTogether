@@ -13,7 +13,7 @@ Revenue - Although the website is free to sign up for and use FitTogether could 
 
 ## 2. Where IT creates value
 
-Which parts of the value chain does your product change, and how? Which course concepts apply (e.g. scale, distribution channels, differentiation, data, switching costs)?
+FitTogether creates value by changing how people find workout partners, discover fitness communities, and stay motivated. The website makes connecting with people who share similar fitness goals, schedules, and experience levels much easier all in one place. Many people go to the gym alone with little knowledge of what workouts to do and the best thing for them. FitTogether brings people with trainers or users that can help at the gym. Several course concepts from class apply to fitTogether like scale, Scale is important because as more people join, there are more potential workout partners and communities available. This creates a network effect where the platform becomes more valuable as its membership grows. Distribution channels are improved because users can access FitTogether online from anywhere instead of depending on in-person connections. Differentiation comes from combining workout partner matching, fitness communities, challenges, and progress tracking into one platform. Data creates value by allowing users to filter potential partners based on their fitness goals, experience, availability, and location. Finally switching costs could develop as FitTogether creates partnerships with gyms and when users develop friendships and join communities making them not want to switch to other websites. Overall, IT allows FitTogether to connect people more efficiently while creating opportunities for long-term growth.
 
 ## 3. Network effects
 
