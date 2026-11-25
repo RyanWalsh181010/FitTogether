@@ -3,86 +3,239 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>YourStartup</title>
-  <meta name="description" content="A student startup prototype for BSAD 281.">
+  <title>FitTogether</title>
+  <meta name="description" content="FitTogether connects people for fitness partners, communities, and challenges.">
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
 
-  <!-- =========================================================
-       HEADER: logo text + navigation.
-       Each link points to a "view" further down the page (#home, #explore, #about).
-       ========================================================= -->
   <header class="site-header">
-    <a class="brand" href="#home" id="brand-name">YourStartup</a>
-    <nav aria-label="Main">
+    <a class="brand" href="#home"><span class="brand-mark" aria-hidden="true">F</span><span id="brand-name">FitTogether</span></a>
+    <button class="menu-button" id="menu-button" type="button" aria-expanded="false" aria-controls="main-nav">Menu</button>
+    <nav aria-label="Main" id="main-nav">
       <a href="#home">Home</a>
-      <a href="#explore">Explore</a>
-      <a href="#about">About</a>
+      <a href="#partners">Find Partners</a>
+      <a href="#communities">Communities</a>
+      <a href="#challenges">Challenges</a>
+      <a href="#progress">My Progress</a>
+      <a href="#network">Network Effects</a>
     </nav>
   </header>
 
   <main>
-
-    <!-- =======================================================
-         VIEW 1: HOME — what you do, for whom, and why it matters.
-         ======================================================= -->
     <section id="home" data-view>
-      <div class="hero">
-        <p class="eyebrow">Prototype</p>
-        <h1 id="tagline">One sentence that says what your startup does.</h1>
-        <p class="lead" id="pitch">
-          Who is your customer, what problem do they have, and why is your
-          solution better than what they use today?
-        </p>
-        <a class="button" href="#explore">See it in action</a>
+      <div class="hero-grid">
+        <div class="hero">
+          <p class="eyebrow">Fitness is better together</p>
+          <h1 id="tagline">Your Fitness Journey Is Better Together.</h1>
+          <p class="lead" id="pitch">FitTogether connects you with workout partners who share your goals, schedule, and motivation—so you can make fitness a part of life, together.</p>
+          <div class="hero-actions">
+            <a class="button" href="#partners">Find a Workout Partner</a>
+            <a class="button secondary" href="#communities">Join a Community</a>
+          </div>
+          <div class="trust-row"><span><strong>1,240</strong> active members</span><span><strong>38</strong> local groups</span><small>Example community stats</small></div>
+        </div>
+        <div class="hero-visual" aria-label="A fictional FitTogether community">
+          <div class="activity-ring"><span>5</span><small>workouts</small></div>
+          <div class="floating-card floating-one"><span class="avatar coral">SJ</span><div><strong>Sarah joined</strong><small>Campus Strength</small></div></div>
+          <div class="floating-card floating-two"><span class="status-dot"></span><div><strong>Challenge complete</strong><small>+120 points</small></div></div>
+          <div class="people-row"><span class="avatar blue">MC</span><span class="avatar gold">JL</span><span class="avatar green">RK</span><span class="avatar-count">+8</span></div>
+        </div>
       </div>
 
+      <div class="section-heading"><p class="eyebrow">How it works</p><h2>One simple way to stay consistent</h2></div>
       <div class="steps">
-        <div class="card">
-          <h2>1. Step one</h2>
-          <p>Describe the first thing a customer does.</p>
+        <div class="card step-card"><span class="step-number">01</span><h2>Set your goals</h2><p>Choose the activities, times, and experience level that fit you.</p></div>
+        <div class="card step-card"><span class="step-number">02</span><h2>Meet your match</h2><p>Find nearby people and groups with a similar fitness rhythm.</p></div>
+        <div class="card step-card"><span class="step-number">03</span><h2>Move together</h2><p>Complete challenges, cheer each other on, and track progress.</p></div>
+      </div>
+
+      <div class="section-heading home-community-heading">
+        <p class="eyebrow">Find your people</p>
+        <h2>There’s a place for every pace</h2>
+        <p class="muted">Explore welcoming groups built around the ways you like to move.</p>
+      </div>
+      <div class="home-community-grid">
+        <a class="home-community-card strength-community" href="#communities">
+          <span class="community-symbol" aria-hidden="true">↗</span>
+          <span><strong>Campus Strength Club</strong><small>Strength · All levels</small></span>
+          <span class="community-arrow" aria-hidden="true">→</span>
+        </a>
+        <a class="home-community-card running-community" href="#communities">
+          <span class="community-symbol" aria-hidden="true">➜</span>
+          <span><strong>Morning Runners</strong><small>Running · Easy pace</small></span>
+          <span class="community-arrow" aria-hidden="true">→</span>
+        </a>
+        <a class="home-community-card wellness-community" href="#communities">
+          <span class="community-symbol" aria-hidden="true">✳</span>
+          <span><strong>Beginner Fitness</strong><small>Wellness · Start together</small></span>
+          <span class="community-arrow" aria-hidden="true">→</span>
+        </a>
+      </div>
+      <aside class="join-banner">
+        <div><p class="eyebrow">Your next chapter starts here</p><h2>Show up for yourself. Find your people.</h2><p>Make your next workout one you look forward to.</p></div>
+        <a class="button" href="#partners">Find Your Workout Partner <span aria-hidden="true">→</span></a>
+      </aside>
+    </section>
+
+    <section id="partners" data-view hidden>
+      <div class="section-heading split-heading">
+        <div><p class="eyebrow">Workout matching</p><h1>Find your workout partner</h1></div>
+        <p class="muted">Compare goals, experience, schedules, and local meetup spots to find a workout rhythm that fits.</p>
+      </div>
+      <div class="filter-bar" aria-label="Partner filters">
+        <label>Fitness goal<select id="goal-filter"><option value="all">All goals</option><option value="Strength">Strength</option><option value="Running">Running</option><option value="Wellness">Wellness</option></select></label>
+        <label>Experience<select id="experience-filter"><option value="all">All levels</option><option value="Beginner">Beginner</option><option value="Intermediate">Intermediate</option><option value="Advanced">Advanced</option></select></label>
+        <label>Availability<select id="availability-filter"><option value="all">Any time</option><option value="Mornings">Mornings</option><option value="Lunch breaks">Lunch breaks</option><option value="Evenings">Evenings</option><option value="Weekends">Weekends</option></select></label>
+        <label>Meetup area<select id="area-filter"><option value="all">All areas</option><option value="Campus">Campus</option><option value="Downtown">Downtown</option><option value="Riverside">Riverside</option><option value="Community">Community</option><option value="Westside">Westside</option><option value="Harbour">Harbour</option></select></label>
+        <label>Search<input type="search" id="search-box" placeholder="Name, goal, or area"></label>
+      </div>
+      <p class="filter-summary" id="match-count" aria-live="polite"></p>
+      <p class="muted" id="saved-count"></p>
+      <div class="grid partner-grid" id="listing-grid"></div>
+      <p class="empty" id="empty-message" hidden>No matching partners found.</p>
+    </section>
+
+    <section id="communities" data-view hidden>
+      <div class="section-heading split-heading">
+        <div><p class="eyebrow">Find your people</p><h1>Fitness is better together</h1></div>
+        <p class="muted">Explore groups that fit your interests, experience, and routine. All communities and member counts are fictional examples.</p>
+      </div>
+      <div class="community-tools">
+        <label class="community-search">Search communities
+          <input type="search" id="community-search" placeholder="Try running, yoga, or beginners">
+        </label>
+        <label class="community-filter">Category
+          <select id="community-filter">
+            <option value="all">All categories</option>
+            <option value="Beginner Fitness">Beginner Fitness</option>
+            <option value="Strength">Strength</option>
+            <option value="Running">Running</option>
+            <option value="Yoga & Wellness">Yoga &amp; Wellness</option>
+            <option value="Student Life">Student Life</option>
+            <option value="Home Workouts">Home Workouts</option>
+          </select>
+        </label>
+      </div>
+      <p class="community-feedback" id="community-feedback" role="status" aria-live="polite"></p>
+      <p class="filter-summary" id="community-result-count" aria-live="polite"></p>
+      <div class="grid community-grid" id="community-grid"></div>
+      <p class="empty" id="community-empty" hidden>No communities match those filters. Try another category or search.</p>
+    </section>
+
+    <section id="challenges" data-view hidden>
+      <div class="section-heading split-heading">
+        <div><p class="eyebrow">A little motivation, together</p><h1>Small wins add up</h1></div>
+        <p class="muted">Choose friendly goals, celebrate showing up, and take part at a pace that works for you. Rest days count as part of a balanced routine.</p>
+      </div>
+      <p class="challenge-feedback" id="challenge-feedback" role="status" aria-live="polite"></p>
+      <div class="challenge-page-layout">
+        <div class="challenge-groups">
+          <section aria-labelledby="weekly-challenges-title">
+            <div class="challenge-group-heading"><div><p class="eyebrow">Build a weekly rhythm</p><h2 id="weekly-challenges-title">This week</h2></div><span>Fresh goals every week</span></div>
+            <div class="challenge-cards" id="weekly-challenges"></div>
+          </section>
+          <section aria-labelledby="monthly-challenges-title">
+            <div class="challenge-group-heading"><div><p class="eyebrow">Keep showing up</p><h2 id="monthly-challenges-title">This month</h2></div><span>Progress over time</span></div>
+            <div class="challenge-cards" id="monthly-challenges"></div>
+          </section>
         </div>
-        <div class="card">
-          <h2>2. Step two</h2>
-          <p>Describe what happens next.</p>
-        </div>
-        <div class="card">
-          <h2>3. Step three</h2>
-          <p>Describe the result the customer gets.</p>
-        </div>
+        <aside class="leaderboard card">
+          <div class="card-heading"><h2>Community leaderboard</h2><span>This week</span></div>
+          <p class="leaderboard-note">Celebrating participation points from fictional community teams.</p>
+          <div id="leaderboard"></div>
+          <div class="achievement-callout"><span class="achievement-icon" aria-hidden="true">★</span><div><strong>Points become badges</strong><small>Earn a badge when you complete a challenge.</small></div></div>
+        </aside>
       </div>
     </section>
 
-    <!-- =======================================================
-         VIEW 2: EXPLORE — a list built from the fake data in data.js.
-         ======================================================= -->
-    <section id="explore" data-view hidden>
-      <h1>Explore</h1>
-      <p class="muted">These examples are fake. They come from <code>data.js</code>.</p>
-
-      <label class="search">
-        <span>Search</span>
-        <input type="search" id="search-box" placeholder="Type to filter…">
-      </label>
-
-      <p class="muted" id="saved-count"></p>
-      <div class="grid" id="listing-grid"></div>
-      <p class="empty" id="empty-message" hidden>Nothing matches your search.</p>
+    <section id="progress" data-view hidden>
+      <div class="section-heading split-heading">
+        <div><p class="eyebrow">Your dashboard</p><h1>Progress, your way</h1></div>
+        <p class="muted">A simple look at the routines, personal goals, and community connections you’re building. Every step counts.</p>
+      </div>
+      <div class="progress-stats">
+        <article class="card progress-stat"><span>Total workouts</span><strong id="total-workouts">0</strong><small>completed in this demo account</small></article>
+        <article class="card progress-stat"><span>Fitness groups</span><strong id="joined-group-count">0</strong><small>you’ve joined</small></article>
+        <article class="card progress-stat"><span>Community points</span><strong id="week-score">0</strong><small>earned by showing up</small></article>
+      </div>
+      <div class="progress-layout">
+        <article class="card progress-card activity-chart-card">
+          <div class="card-heading"><div><p class="eyebrow">Activity overview</p><h2 id="activity-chart-title">This week</h2></div><span id="week-completion">0 of 4 workouts</span></div>
+          <div class="chart-controls" role="group" aria-label="Choose activity chart period">
+            <button type="button" class="chart-toggle active" id="weekly-view" aria-pressed="true">Weekly</button>
+            <button type="button" class="chart-toggle" id="monthly-view" aria-pressed="false">Monthly</button>
+          </div>
+          <p class="chart-summary" id="chart-summary"></p>
+          <div class="activity-chart" id="activity-chart" role="img"></div>
+          <p class="activity-message" id="activity-message"></p>
+          <button class="button" id="log-workout" type="button">Log a workout</button>
+        </article>
+        <article class="card goals-card">
+          <div class="card-heading"><h2>Your personal goals</h2><span>This week</span></div>
+          <p class="goals-intro">Set a pace that feels right and celebrate steady progress.</p>
+          <div id="goal-progress"></div>
+        </article>
+      </div>
+      <div class="progress-details-grid">
+        <article class="card dashboard-challenges">
+          <div class="card-heading"><h2>Current challenges</h2><a href="#challenges">Explore all</a></div>
+          <div id="current-challenges"></div>
+        </article>
+        <article class="card recent-activity-card">
+          <div class="card-heading"><h2>Recent activity</h2><span>Demo account</span></div>
+          <div class="recent-activity-list" id="recent-activity"></div>
+        </article>
+      </div>
+      <section class="achievement-section" aria-labelledby="achievement-title">
+        <div class="section-heading"><p class="eyebrow">Celebrate the little wins</p><h2 id="achievement-title">Your achievements</h2></div>
+        <div class="achievement-grid" id="achievement-grid"></div>
+      </section>
     </section>
 
-    <!-- =======================================================
-         VIEW 3: ABOUT — your team and your story.
-         ======================================================= -->
-    <section id="about" data-view hidden>
-      <h1>About us</h1>
-      <p>Tell the story of why your team started this company.</p>
-      <p>Use first names only, or no names at all — this site is public.</p>
+    <section id="network" data-view hidden>
+      <div class="section-heading split-heading">
+        <div><p class="eyebrow">The community advantage</p><h1>More people, more possibilities</h1></div>
+        <p class="muted">FitTogether is a local, two-sided network: members find workout partners, while gyms and trainers bring activities to the community.</p>
+      </div>
+      <div class="network-controls card">
+        <div class="network-slider-heading">
+          <label for="member-slider">Fitness members in one local community</label>
+          <output id="member-count" for="member-slider" aria-live="polite">50 members</output>
+        </div>
+        <input type="range" id="member-slider" min="10" max="1000" value="50" step="10">
+        <div class="range-labels"><span>10 members</span><span>1,000 members</span></div>
+        <p>Explore a fictional campus or nearby-area network. Members spread across distant places would not create the same local value.</p>
+      </div>
+      <div class="network-grid">
+        <article class="card metric-card"><span>Potential partner matches</span><strong id="partner-options">9</strong><p>estimated options for a member</p></article>
+        <article class="card metric-card"><span>Fitness communities</span><strong id="community-options">2</strong><p>local groups to join</p></article>
+        <article class="card metric-card"><span>Local organizers</span><strong id="organizer-count">1</strong><p>gyms, trainers, and hosts</p></article>
+        <article class="card metric-card"><span>Fitness activities</span><strong id="activity-options">2</strong><p>events and sessions to explore</p></article>
+      </div>
+      <div class="network-explainer">
+        <article class="network-effect-card">
+          <span class="network-effect-label">Member ↔ member</span>
+          <h2>Same-side network effect</h2>
+          <p>Each additional person in the same area gives members more potential partners with compatible goals and schedules. A concentrated local group is more useful than the same number spread far apart.</p>
+        </article>
+        <article class="network-effect-card cross-side">
+          <span class="network-effect-label">Members ↔ organizers</span>
+          <h2>Cross-side network effect</h2>
+          <p>More members make FitTogether more valuable to gyms, trainers, and community hosts. Their classes and events then give members more reasons to join and return.</p>
+        </article>
+      </div>
+      <section class="cold-start-section" aria-labelledby="cold-start-title">
+        <div class="section-heading"><p class="eyebrow">Start small, grow locally</p><h2 id="cold-start-title">Solving the cold-start problem</h2></div>
+        <div class="cold-start-steps">
+          <article class="card"><span>01</span><h3>Choose one campus</h3><p>Focus on one close-knit area so early members can actually meet.</p></article>
+          <article class="card"><span>02</span><h3>Seed both sides</h3><p>Invite 30–50 students, partner with two gyms, and recruit a few activity hosts.</p></article>
+          <article class="card"><span>03</span><h3>Build a shared habit</h3><p>Run a free 30-day community challenge, then expand when local groups are active.</p></article>
+        </div>
+      </section>
     </section>
-
   </main>
 
-  <!-- Keep this footer. Your site must say it is a student project. -->
   <footer class="site-footer">
     <p>Student prototype for BSAD 281 at St. Francis Xavier University. Not a real company — all data is fictional.</p>
   </footer>
