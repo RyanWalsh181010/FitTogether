@@ -1,13 +1,14 @@
-# Business case
+FitTogether 
+Your fitness journey is better together
 
-Your prototype shows *what* the product looks like. This document explains *why* it could become a business. Answer in your own words and refer to course concepts by name. See the term project brief on Moodle for length and grading.
 
-## 1. The idea
 
-- **Customer:** Who exactly is it for?
-- **Problem:** What problem do they have today, and how do they solve it now?
-- **Solution:** What does your product do differently or better?
-- **Revenue:** How does the company make money?
+## 1. The idea FitTogether
+
+Customer - FitTogether is intended for young adults, students, and anyone else who is looking to become more active. It also targets community organizers, fitness instructors, and gyms who wish to reach out to new members.
+Problem - Many people struggle to stay motivated in the gym when working out alone or finding workout partners with similar goals and schedules. Today people rely on friends, social media or word of mouth to find good workout partners. This makes finding partners to train with hard and sometimes stressful. 
+Solution - FitTogether provides a platform where users can find workout partners, join local communities, compete in challenges and track your progress simply. When looking for a partner users can filter based on fitness goals, experience, availability and location based on what they're looking for. This makes finding a compatible workout partner incredible easy and encourages motivation. 
+Revenue - Although the website is free to sign up for and use FitTogether could make revenue through partnerships with local gyms and fitness trainers who will pay to advertise there services, classes and events. If later on you want to increase revenue on FitTogether you can offer a premium membership that will give users additional features like personalized challenges and advanced partner matching. 
 
 ## 2. Where IT creates value
 
