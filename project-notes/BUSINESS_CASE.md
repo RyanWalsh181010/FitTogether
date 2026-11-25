@@ -1,4 +1,4 @@
-## FitTogether
+## FitTogether Business Case Report
 
 Your fitness journey is better together
 
