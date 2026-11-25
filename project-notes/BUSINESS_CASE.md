@@ -1,4 +1,5 @@
-FitTogether 
+## FitTogether
+
 Your fitness journey is better together
 
 
