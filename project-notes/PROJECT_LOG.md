@@ -6,8 +6,6 @@ Ryan Walsh
 
 FitTogether
 
-https://supreme-orbit-p79xx9467wwqf76g6-4173.app.github.dev/#home 
-
 https://ryanwalsh181010.github.io/FitTogether/ 
 
 Session 1 — November 23, 2026 —
