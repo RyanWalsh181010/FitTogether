@@ -63,11 +63,14 @@ Nov 26	The progress charts on the My Progress page did not update when switching
 
 Nov 26	The Network Effects slider moved, but the statistics displayed on the page did not change correctly.	Asked Copilot to check the slider functionality and how the displayed statistics were connected to it.	Asked Copilot to connect the slider value to the displayed statistics and tested different slider positions. 
 
-Reflection 
+Reflection
+
 What I learned from using AI
+
 I discovered how helpful AI can be as a tool for transforming a business idea into a functional website during the creation of FitTogether. I could describe what I wanted the website to do and utilize AI to help build and enhance the code instead of having to be an expert in HTML, CSS, and JavaScript beforehand. Asking AI to assist in creating a fitness partner matching page with filters for exercise objectives, experience levels, availability, and meetup places was one prompt that proved effective. This assisted in transforming the initial concept into an interactive feature that users could truly investigate. Additionally, I discovered that AI does not always yield flawless outcomes, and its recommendations must be reviewed and edited until you get the result you want. A prompt that was very helpful was add more communities for people to join on FitTogether so there was a spot for everyone making my website more accessible to all and hopefully attract more people. 
 
 Challenges I faced
+
 Making the website's many sections function effectively was one of the main problems. FitTogether has a progress dashboard, a network effects area, communities, challenges, workout partner matching, and a homepage. The biggest issue was getting the styles to match up after making a small mistake. It took patience and debugging to ensure that the buttons, filters, navigation, and interactive features operated consistently and everything looked right and appealing. Sometimes a modification that made one area of the website better led to a problem in another. I discovered that knowing how the various files relate to one another is crucial even in cases where AI produces code rapidly. I overcame these obstacles by testing every functionality and clearly communicating issues to AI.
 
 Overall this project showed me how much easier it is to create a website without any background or prior learning about code. It shows that if you have an idea it's simple with the help of AI to build a working website and create a business. With that though it is just as easy for someone else to do the exact same thing making your idea the big thing for uniqueness. 
