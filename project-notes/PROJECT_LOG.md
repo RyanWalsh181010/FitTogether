@@ -52,8 +52,12 @@ Things That Broke (Running List)
 
 
 Date	What went wrong	What we tried	What finally fixed it
+
 Nov 24	Some navigation links on the home page did not take users to the correct sections of the website.	Asked Copilot to review the navigation links and check the page connections.	Asked Copilot to correct the link destinations and tested each navigation option again.
+
 Nov 25	The Connect buttons on the Find Workout Partners page did not display a confirmation when clicked.	Asked Copilot to make the buttons interactive and check their functionality.	Copilot added a click interaction that displayed a connection request confirmation.
+
 Nov 26	The progress charts on the My Progress page did not update when switching between weekly and monthly views.	Asked Copilot to review the chart controls and identify why the displayed information was not changing.	Asked Copilot to fix the interaction so the charts updated when a different time period was selected.
+
 Nov 26	The Network Effects slider moved, but the statistics displayed on the page did not change correctly.	Asked Copilot to check the slider functionality and how the displayed statistics were connected to it.	Asked Copilot to connect the slider value to the displayed statistics and tested different slider positions. 
 
