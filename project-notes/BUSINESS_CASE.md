@@ -22,11 +22,7 @@ FitTogether becomes more valuable as more people join because users have more op
 
 ## 4. Can it be copied? (the moat question)
 
-Anyone in this class could rebuild your website in a weekend with the same AI tool. So the code is **not** your competitive advantage.
-
-- What about your business is **valuable, rare, hard to imitate and well-organized** (VRIN)?
-- What would a competitor with a bigger budget need to copy you, and how long would it take?
-- Which of your advantages get *stronger* over time (data, network, brand, switching costs)?
+FitTogether’s competitive advantage is not the website itself because AI tools make it relatively easy for competitors to build a similar platform. Its real value comes from creating a strong local fitness community and building relationships between members, gyms, and trainers. The platform is valuable because it helps people find workout partners, stay motivated, and become more consistent with exercise. It could become rare by developing a strong network of active members in a specific area, such as STFX or halifax. It would also become harder to imitate over time because competitors cannot instantly copy established relationships, community trust, and member engagement. Once FitTogether becomes popular in one area you can then expand out to more specific communities until it becomes very popular. A competitor with a bigger budget could recreate the website and its basic features fairly quickly, possibly within a few weeks. However, building an active and successful community would take much longer. They would need to attract members, create partnerships with local gyms, promote the platform, and develop a trustworthy reputation. These things require time and consistent effort, not just money. FitTogether's strongest long-term advantages would be its network effects, member data, and brand recognition. As more people join, members have more potential workout partners, fitness groups, and activities to choose from. This makes the platform more valuable and encourages people to continue using it. Over time, FitTogether could also learn more about members' fitness goals, interests, and schedules, helping improve partner recommendations. Building strong community connections and customer loyalty would make it harder for competitors to take members away. overall, FitTogether's biggest advantage would be the community it creates, rather than the technology used to build the website which can never be replaced. 
 
 ## 5. Cloud and operations
 
